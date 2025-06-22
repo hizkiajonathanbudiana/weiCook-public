@@ -12,7 +12,7 @@ const PubMenu = () => {
   useEffect(() => {
     (async () => {
       const { data } = await axios.get(
-        `http://13.229.119.47//pub/cuisines/${id}`
+        `http://13.229.119.47/pub/cuisines/${id}`
       );
 
       console.log("berhasil");
