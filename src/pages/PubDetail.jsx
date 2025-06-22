@@ -41,14 +41,14 @@ const PubMenu = () => {
 
           <div className="col-md-6">
             <h1 className="fw-bold mt-4">{details.name}</h1>
-            <p className="badge bg-primary">{details.category}</p>
+            <p className="badge bg-primary">{details.Category?.name}</p>
             <p className="mt-3">{details.description}</p>
 
-            <h3 className="mt-4 fw-light">Harga</h3>
+            <h3 className="mt-4 fw-light">Price</h3>
             <p className="display-6 text-primary fw-bold">{details.price}</p>
 
             <div className="mt-4">
-              <h5 className="fw-light">Dibuat oleh:</h5>
+              <h5 className="fw-light">Created by:</h5>
               <p className="text-muted">{details.User?.username}</p>
             </div>
 
