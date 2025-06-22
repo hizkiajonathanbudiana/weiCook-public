@@ -40,7 +40,7 @@ const PubMenu = () => {
           </div>
 
           <div className="col-md-6">
-            <h1 className="fw-bold">{details.name}</h1>
+            <h1 className="fw-bold mt-4">{details.name}</h1>
             <p className="badge bg-primary">{details.category}</p>
             <p className="mt-3">{details.description}</p>
 

@@ -11,23 +11,24 @@ const Navbar = () => {
         <ul className="navbar-nav flex-row gap-3">
           <li className="nav-item">
             <Link className="nav-link" to="/">
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/menu">
               Menu
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/edit">
+            <a
+              href="https://wei-cook-cms-site.vercel.app/homecms"
+              className="nav-link"
+            >
               Edit
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link className="btn btn-primary ms-lg-3" to="/login">
+            <a
+              href="https://wei-cook-cms-site.vercel.app/login"
+              className="btn btn-primary ms-lg-3"
+            >
               Login
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
