@@ -21,7 +21,7 @@ const PubMenu = () => {
       setIsLoading(true);
 
       const { data } = await axios.get(
-        `http://localhost:3000/pub/cuisines?search=${formInput.search}&filter=${formInput.filter}&page=${currentPage}&sort=${formInput.sort}`
+        `http://13.229.119.47//pub/cuisines?search=${formInput.search}&filter=${formInput.filter}&page=${currentPage}&sort=${formInput.sort}`
       );
 
       const { data: dataCategories } = await axios.get(
